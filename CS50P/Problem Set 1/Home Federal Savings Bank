@@ -1,0 +1,10 @@
+greeting = input("Greeting: ")
+greeting_modified = greeting.strip(" ").casefold()
+
+
+if greeting_modified.startswith("hello"):
+    print("$0")
+elif greeting_modified.startswith("h"):
+    print("$20")
+else:
+    print("$100")
