@@ -1,0 +1,23 @@
+# Defining the text smiley and emojis
+happy = ":)"
+sad = ":("
+
+happy_emoji = "🙂"
+sad_emoji = "🙁"
+
+# this is the higher level logic flow of the program
+def main():
+    # ask a user for their input
+    message = input(str("Type your message: "))
+    # message variable calls convert function that takes message as a parameter
+    message = convert(message)
+    print(message)
+
+# convert is the logic of replacing text with emojis
+def convert(message):
+    message = message.replace(happy, happy_emoji)
+    message = message.replace(sad, sad_emoji)
+    return message
+
+# executes the program logic
+main()
