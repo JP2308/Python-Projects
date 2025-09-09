@@ -1,0 +1,6 @@
+problem = input("mass (in kg): ")
+
+joules = int(problem) * 90000000000000000
+
+print("This is equivalent to " + "{:,}".format(joules) + " Joules" )
+exit
