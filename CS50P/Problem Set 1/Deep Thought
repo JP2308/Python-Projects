@@ -1,0 +1,11 @@
+question = input("What is the Answer to the Great QUestion of Life, the Universe, and Everything? ")
+question_output = question.strip(" ").casefold()
+
+if question_output == "42":
+    print("Yes")
+elif question_output == "forty-two":
+    print("Yes")
+elif question_output == "forty two":
+    print("Yes")
+else:
+    print("No")
