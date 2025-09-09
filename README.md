@@ -36,3 +36,7 @@ Clone this repository and run any script with Python 3:
 git clone https://github.com/JP2308/CS50P-Projects.git
 cd CS50P-Projects
 python script_name.py
+```
+
+# DISCLAIMER:
+This repository is for educational purposes. Feel free to explore and learn from it, but please don’t submit my work as your own in any coursework.
