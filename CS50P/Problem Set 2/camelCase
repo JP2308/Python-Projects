@@ -1,0 +1,23 @@
+def main():
+    # Accept a camelCase string as input
+    camel = input("camelCase: ")
+
+    # Convert the camelCase string to snake_case
+    snake_case = convert_to_snake_case(camel)
+
+    # Print the result
+    print("snake_case:", snake_case)
+
+def convert_to_snake_case(string_input):
+    result = []
+    for char in string_input:
+        # If the character is uppercase, prepend an underscore and convert to lowercase
+        if char.isupper():
+            result.append('_')
+            result.append(char.lower())
+        else:
+            result.append(char)
+    # Join the result list into a single string
+    return ''.join(result)
+
+main()
